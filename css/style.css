@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+ 
+ 
+}
+.select-wrapper input.select-dropdown{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none; 
+  user-select:none;
+  }
+#dropdown1{
+  width: 200px !important;
+}
+.dropdown-content .li{
+
+  color: blue;
+}
+h3{
+
+  color: blue;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+ 
+}
+.btn , .btn-small, .btn-large{
+	background-color: #2c167a !important;
+}
+h4 {
+  font-size: 2.05rem;
+}
+p {
+  line-height: 2rem;
+}
+
+.sidenav-overlay {
+ 
+  opacity: 0 !important;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
